@@ -2,9 +2,9 @@ const form=document.getElementById('contactForm')
 form.addEventListener('submit', function(event){
     event.preventDefault()
     const name =document.getElementById('name').value
-    const lname =document.getElementById('lname').value
+    const lastName =document.getElementById('lname').value
     const email = document.getElementById('email').value
-        if (name==='' || lname==='' || email===''){
+        if (name==='' || lastName==='' || email===''){
             alert('please enter all inputs')
             return
         } 
