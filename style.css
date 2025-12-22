@@ -54,17 +54,16 @@
     margin: 20px 20px 0 20px;
 }
 
-.contactsus{
+.contactsUs{
     background-image: url('contact.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* background-color: blueviolet; */
     height: calc(100vh - 18.5px);
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
+
 .head{
     background-color:white;
     display: flex;
