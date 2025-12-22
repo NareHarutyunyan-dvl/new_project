@@ -54,6 +54,72 @@
     margin: 20px 20px 0 20px;
 }
 
+.contactsus{
+    background-image: url('contact.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: blueviolet; */
+    height: calc(100vh - 18.5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.head{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.head img{
+    text-align: center;
+    width: 200px;
+    padding: 100px 100px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    
+}
+
+.input_style{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #e6e6e6;
+    border: none;
+}
+
+
+.text{
+    border: none;
+     border-radius: 20px;
+     height:80px;
+     padding: 10px;
+     background-color: #e6e6e6;
+}
+
+.submit{
+    border-radius: 20px;
+    background-color: plum;
+    border: solid none;
+    padding: 10px;
+    border: none;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: black;
+    color: blueviolet;
+    
+}
+
+
 
 @media screen and (max-width: 768px){
     .header{
