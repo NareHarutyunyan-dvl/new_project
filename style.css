@@ -25,12 +25,17 @@
 .nav{
     display: flex;
     justify-content: flex-end;
-    padding-inline: 20px 50px; 
-    gap: 20px;
+    padding-inline: 50px 50px; 
+    gap: 30px;
+    margin: 30px;
+    background-color: #bab3a9;
+   
     
 }
 .nav a{
-    text-decoration: none;  
+    text-decoration: none; 
+    color: black; 
+    font-size: 40px;
 }
 
 .header{
@@ -65,11 +70,10 @@
 }
 
 .head{
-    background-color:white;
+    background-color:#bab3a9;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .head img{
